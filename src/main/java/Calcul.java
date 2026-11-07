@@ -9,6 +9,7 @@ public class Calcul {
     }
 
     public int longueur(String texte) {
-        return texte.length();
+       
+    return texte.length();
     }
 }
