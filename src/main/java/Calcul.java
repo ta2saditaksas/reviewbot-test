@@ -11,4 +11,13 @@ public class Calcul {
     public int longueur(String texte) {
         return texte.length();
     }
+
+    
+       public double ratio(int total, int partie) {
+           return partie / total;
+       }
+
+       public boolean estVide(String mot) {
+           return mot.isEmpty();
+       }
 }
